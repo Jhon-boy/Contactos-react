@@ -13,15 +13,15 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
+.App-header { 
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
+  width: 700px;
 }
 
 .App-link {
@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+h1{
+  color: yellow;
+  
+ }
+ .task-action{
+  cursor: pointer;
+}
+ body{
+  background-image: url("https://images.opencollective.com/react-firebase-starter/c636859/background.jpg");
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: aliceblue;
+ }
